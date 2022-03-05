@@ -1,0 +1,42 @@
+/* Global style */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+/* Header styling */
+
+.header{
+    padding: 42px 156px;
+    background-color:#2D25A0;
+    display: flex;
+    justify-content:space-between;
+   
+}
+.menu a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px; 
+    color: #FFFFFF;
+    padding-right: 36px;
+}
+
+.button a{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color:#FFFFFF;
+}
+.button i{
+    padding-right: 12px;
+    width: 17px;
+    height: 16px;
+    margin-top: 4px;
+}
