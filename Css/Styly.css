@@ -7,12 +7,16 @@
 }
 /* Header styling */
 
-.header{
+.header,.hero,.highlight{
     padding: 42px 156px;
     background-color:#2D25A0;
     display: flex;
     justify-content:space-between;
-   
+    align-items: center;
+    
+}
+.hero{
+    margin-bottom:100px;
 }
 .menu a{
     font-family: 'Poppins', sans-serif;
@@ -24,7 +28,7 @@
     padding-right: 36px;
 }
 
-.button a{
+.button a,.hero-text a,.highlight-text a{
     background-color: #E02C6D;
     padding: 10px 24px;
     font-family: 'Poppins', sans-serif;
@@ -34,9 +38,109 @@
     line-height: 24px;
     color:#FFFFFF;
 }
-.button i{
+.button i,.hero-text i,.highlight-text i{
     padding-right: 12px;
     width: 17px;
     height: 16px;
     margin-top: 4px;
+}
+
+/* hero section styling */
+.hero-text h1{
+    font-family: poppins,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 80px;
+    color:#FFFFFF;
+    padding-bottom: 27px;
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 207px;
+}
+.hero-image img{
+    width: 556.01px;
+    height: 438px;
+    left: 1299.01px;
+    top: 153px;
+}
+/* Hero section end  */
+
+/* Players section styling start */
+
+.players{
+    background-color: #FFFFFF;
+    padding: 70px 180px;
+    display:flex;
+    padding-left: 400px;
+}
+.player{
+    width: 330px;
+    height: 420px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    margin-top: -120px;
+
+}
+.player img{
+    width: 330px;
+    height: 256px;
+    padding-bottom: 16px;
+    
+   
+}
+.player h1{
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+    padding-bottom: 10px;
+}
+.player p{
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+/* player section styling  end  */
+.highlight{
+    background-color:#FFFFFF;
+}
+.highlight-text h1{
+    font-family: poppins,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+    width: 469px;
+    height: 120px;
+
+}
+
+.highlight-image img{
+    width: 567px;
+    height: 427px;
+    left: 717px;
+    top: 2889px;
+}
+
+.highlight-text p{
+    width: 404px;
+    height: 113px;
+    left: 0px;
+    top: 128px;
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 24px;
+    
 }
